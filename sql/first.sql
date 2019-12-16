@@ -1,0 +1,3 @@
+create table t_user(user_id INTEGER PRIMARY KEY AUTOINCREMENT,account VARCHAR(100),password VARCHAR(100),name VARCHAR(100));
+create table t_customer(customer_id INTEGER PRIMARY KEY AUTOINCREMENT, name VARCHAR(200), phone VARCHAR(100), model VARCHAR(50), sign_date DATA, pay_date DATA, lease_years int(5), pay_years int(5), address VARCHAR(255) );
+insert into t_user (account,password,name) values ('root','123456','系统管理员');
